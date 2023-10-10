@@ -4,6 +4,15 @@ function myFunction() {
 
 let mySound = new Audio("bwomp.mp3")
 
+
+var played = 0;
 function playAudio() {
-    mySound.play()
+
+
+    if (played == 0) {
+        mySound.play()
+        played++;
+    }
+      
 }
+

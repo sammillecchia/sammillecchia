@@ -1,6 +1,32 @@
 h1 {
-    color:orange
+    color:orange;
 }
 body {
-    color:grey
+    background-color:#363636;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+.button {
+  background-color: #505050;
+  border: none;
+  color: #1f1f1f;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+.counter {
+  font-weight: 900;
+  font-size: 70px;
+}
+.bwompimage {
+    width:100%;
+    height:auto;
 }
