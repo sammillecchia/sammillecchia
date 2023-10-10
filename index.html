@@ -1,10 +1,38 @@
 <html>
+
 <head>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<h1 id="test">CSS ORANGE</h1>
-<button type="button" onclick="myFunction()">javascript?!</button>
-<script src="script.js"></script>
+    <audio id="myAudio"></audio>
+    <source src="bwomp.mp3" type="audio/mp3">
+    <source src="bwomp.ogg" type="audio/ogg">
+    Your browser does not support the audio 
+    </audio>
+
+    <h1 id="test">CSS ORANGE</h1>
+
+    <button type="button" onclick="myFunction()">javascript?!</button>
+
+    <button type="button" onclick="playAudio()" id="button2">DO NOT CLICK! BE WARNED!</button>
+    
+    <audio> 
+        
+        <source src="bwomp.mp3" type="audio/mp3"> 
+        <source src="bwomp.ogg" type="audio/ogg">
+    
+    </audio>
+    
+    <script src="script.js">
+
+        var x = document.getElementById("myAudio");
+
+        function playAudio() {
+            x.play();
+        }
+
+    </script>
 </body>
+
 </html>
